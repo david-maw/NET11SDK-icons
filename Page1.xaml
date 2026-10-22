@@ -1,0 +1,14 @@
+<ContentPage x:Class="NET11SDK.Page1"
+             Title="Page1">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Letter X" IconImageSource="{StaticResource GlyphX}"/>
+        <ToolbarItem Text="Letter Y" IconImageSource="{StaticResource GlyphY}"/>
+        <ToolbarItem Text="Letter Z" IconImageSource="{StaticResource GlyphZ}"/>
+    </ContentPage.ToolbarItems>
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>
